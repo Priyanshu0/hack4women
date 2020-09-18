@@ -25,6 +25,6 @@ def business(location):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=33507)
+    app.run()
 # debug page in browser
 # can open a python console in any step of this traceback
