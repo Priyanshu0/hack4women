@@ -1,0 +1,4 @@
+{
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/home/khushnuma/Projects/Environments/hack4women/bin/python"
+}
