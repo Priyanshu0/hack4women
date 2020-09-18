@@ -1,32 +1,39 @@
 {% extends "base.html" %} {% block content %}
-<div class="bg-grey-lighter min-h-screen flex flex-col">
-  <div
-    class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2"
-  >
-    <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
-      <h1 class="mb-8 text-3xl text-center">Log In</h1>
+<div
+  class="bg-cover bg-center"
+  style="
+    background-image: url(https://images.unsplash.com/photo-1600194992699-40f82661a55d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+  "
+>
+  <div class="bg-grey-lighter min-h-screen flex flex-col">
+    <div
+      class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2"
+    >
+      <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
+        <h1 class="mb-8 text-3xl text-center">Log In</h1>
 
-      <input
-        type="text"
-        class="block border border-grey-light w-full p-3 rounded mb-4"
-        name="email"
-        placeholder="Email"
-      />
+        <input
+          type="text"
+          class="block border border-grey-light w-full p-3 rounded mb-4"
+          name="email"
+          placeholder="Email"
+        />
 
-      <input
-        type="password"
-        class="block border border-grey-light w-full p-3 rounded mb-4"
-        name="password"
-        placeholder="Password"
-      />
+        <input
+          type="password"
+          class="block border border-grey-light w-full p-3 rounded mb-4"
+          name="password"
+          placeholder="Password"
+        />
 
-      <button
-        type="submit"
-        class="w-full text-center py-3 rounded bg-green text-black hover:bg-green-dark focus:outline-none my-1"
-      >
-        Log In
-      </button>
+        <button
+          type="submit"
+          class="w-full text-center py-3 rounded bg-green text-black hover:bg-green-dark focus:outline-none my-1"
+        >
+          Log In
+        </button>
+      </div>
     </div>
   </div>
-  {% endblock %}
 </div>
+{% endblock %}

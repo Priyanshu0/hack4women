@@ -1,4 +1,5 @@
 {% extends "base.html" %} {% block content %}
+<div class="bg-blue-100">
 <header class="text-gray-700 body-font">
   <div
     class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
@@ -25,34 +26,13 @@
     <nav
       class="md:ml-auto flex flex-wrap items-center text-base justify-center"
     >
-<<<<<<< HEAD
       <a class="mr-5 hover:text-gray-900" href="{{ url_for('login') }}"
         >Login</a
       >
       <a class="mr-5 hover:text-gray-900" href="{{ url_for('signup') }}"
         >Sign Up</a
       >
-=======
-      <a class="mr-5 hover:text-gray-900" href = "login.html">Login</a>
-      <a class="mr-5 hover:text-gray-900" href = "signup.html">Sign Up</a>
->>>>>>> ad5ed9bf893b4d57f41f0de453e5c9234aba2411
-    </nav>
-    <button
-      class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0"
-    >
-      Button
-      <svg
-        fill="none"
-        stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        class="w-4 h-4 ml-1"
-        viewBox="0 0 24 24"
-      >
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-    </button>
+     </nav>
   </div>
 </header>
 
@@ -62,18 +42,11 @@
       <h1
         class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
       >
-<<<<<<< HEAD
         Scaling Small Women Businesses
       </h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
         Discover new, unique products made by small scale businesses run by
         women
-=======
-        Scaling Small Businesses 
-      </h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-        Discover new, unique products made by small scale businesses run by women
->>>>>>> ad5ed9bf893b4d57f41f0de453e5c9234aba2411
       </p>
     </div>
     <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:px-0">
@@ -100,12 +73,7 @@
         Our partners
       </h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-<<<<<<< HEAD
-        Some small businesses who have increased their consumer base through our
-        platform
-=======
         Some small businesses who have increased their consumer base through our platform
->>>>>>> ad5ed9bf893b4d57f41f0de453e5c9234aba2411
       </p>
     </div>
     <div class="flex flex-wrap">
@@ -117,11 +85,7 @@
         >
           Bakery
         </h2>
-<<<<<<< HEAD
         <img src="../static/bakery.jpeg" />
-=======
-        <img src = "imgres.html">
->>>>>>> ad5ed9bf893b4d57f41f0de453e5c9234aba2411
         <p class="leading-relaxed text-base mb-4">
           Buy delicious, fingerlicking bakery products
         </p>
@@ -147,28 +111,8 @@
         >
           Decorative products
         </h2>
-<<<<<<< HEAD
         <img src="../static/craft.jpeg" />
         <p class="leading-relaxed text-base mb-4">Fancy, crafty products</p>
-=======
-        <p class="leading-relaxed text-base mb-4">
-          Fancy, crafty products 
-        </p>
-        <a class="text-teal-500 inline-flex items-center"
-          >Learn More
-          <svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-4 h-4 ml-2"
-            viewBox="0 0 24 24"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
->>>>>>> ad5ed9bf893b4d57f41f0de453e5c9234aba2411
       </div>
       <div
         class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200"
@@ -236,5 +180,5 @@
     </div>
   </div>
 </section>
-
+</div>
 {% endblock %}
